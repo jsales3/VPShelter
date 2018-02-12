@@ -225,6 +225,7 @@ namespace VPShelter
                             myPet2.Feed(myPet2.PetDiet);
                             myPet3.Feed(myPet3.PetDiet);
                             myPet4.Feed(myPet4.PetDiet);
+                            Console.WriteLine(myVolunteer.Feed());
                             break;
 
                         case 2:
@@ -232,6 +233,7 @@ namespace VPShelter
                             myPet2.GiveWater();
                             myPet3.GiveWater();
                             myPet4.GiveWater();
+                            Console.WriteLine(myVolunteer.GiveWater());
                             break;
 
                         case 3:

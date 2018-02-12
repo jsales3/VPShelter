@@ -31,22 +31,14 @@ namespace VPShelter
             return EmployeeID;
         }
 
-        public void IsFed(bool feed)
+        public string Feed()
         {
-            if (feed)
-            {
-                Console.WriteLine("All pets have been fed");
-
-            }
-            else
-            {
-                Console.WriteLine("the pets need to be feed");
-            }
+            return "All pets have been feed";
         }
 
-        public void GiveWater()
+        public string GiveWater()
         {
-
+            return "you gave all your pet some water";
         }
 
         //public int GetOption()

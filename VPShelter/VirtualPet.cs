@@ -50,19 +50,20 @@ namespace VPShelter
         public int HungryLevel
         {
             get { return hungryLevel; }
+            set { hungryLevel = value; }
 
         }
 
         public int ThirstLevel
         {
             get { return thirstLevel; }
-
+            set { hungryLevel = value; }
         }
 
         public int BoredLevel
         {
             get { return boredLevel; }
-
+            set { hungryLevel = value; }
         }
 
         public int FoodAmount
